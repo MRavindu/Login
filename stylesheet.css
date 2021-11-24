@@ -1,0 +1,16 @@
+body{
+
+}
+/* Navigation bar styles */
+.navi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    align: left;
+}
+
+/* Header style of Landing Page */
+.landhead{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    text-align: center;
+}
