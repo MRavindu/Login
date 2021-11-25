@@ -1,16 +1,47 @@
 body{
-
+    display: block;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Navigation bar styles */
 .navi{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #05004b;
 }
+
+.navi li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.navi li:last-child {
+    border-right: none;
+}
+
+.navi li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navi li a:hover:not(.active){
+    background-color: #015a69;
+}
+  
+.active{
+    background-color: #003842;
+}
+
 
 /* Header style of Landing Page */
 .landhead{
     font-family: Arial, Helvetica, sans-serif;
-    color:blue;
+    color:rgb(255, 255, 255);
     text-align: center;
+    margin-top: 100px;
 }
